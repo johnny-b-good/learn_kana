@@ -4,8 +4,8 @@
   "description": "Yet another hiragana studying app",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#4b5563",
-  "theme_color": "#4b5563",
+  "background_color": "#ec4899",
+  "theme_color": "#ec4899",
   "scope": "/",
   "icons": [
     {
