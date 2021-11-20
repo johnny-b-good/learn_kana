@@ -1,0 +1,21 @@
+{
+  "name": "learn_kana",
+  "version": "0.1.0",
+  "description": "Yet another hiragana studying app",
+  "scripts": {
+    "build:styles": "postcss src/static/tailwind.css --env production -o src/static/style.css",
+    "watch:styles": "postcss src/static/tailwind.css --watch -o src/static/style.css"
+  },
+  "author": "johnny-b-good",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johnny-b-good/learn_kana.git"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}

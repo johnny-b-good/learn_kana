@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-pink-500 h-screen w-screen text-white flex flex-col filter">
+    {# Header #}
+    <div class="bg-pink-600 text-white h-12 px-6 flex flex-none shadow items-center">
+        <div class="text-2xl flex-none">Learn Kana!</div>
+        <div class="flex-auto"></div>
+        <div id="loading" class="flex-none">Loading...</div>
+    </div>
+
+    {# Card #}
+    <div class="flex flex-col items-center px-6 py-6 gap-6 flex-auto filter drop-shadow">
+        <div id="kana" class="text-4xl"></div>
+        <div id="romaji" class="text-4xl"></div>
+        <div id="writing" class="text-2xl"></div>
+        <div id="translation" class="text-sm"></div>
+    </div>
+
+    {# Buttons #}
+    <div class="bg-pink-600 h-16 px-6 flex flex-none justify-center items-center shadow-md">
+        <button id="answer" class="bg-pink-500 px-6 py-2 rounded shadow filter-">
+            Show answer
+        </button>
+
+        <button id="next" class="bg-pink-500 px-6 py-2 rounded shadow-md hidden">
+            Next
+        </button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}

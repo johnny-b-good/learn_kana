@@ -1,0 +1,14 @@
+python_modules/
+node_modules/
+
+*.pyc
+__pycache__
+
+.vscode
+.idea
+
+utils/
+
+src/static/style.css
+
+.env

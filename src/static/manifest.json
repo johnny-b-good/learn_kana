@@ -1,0 +1,20 @@
+{
+  "name": "Learn Kana!",
+  "short_name": "LK!",
+  "description": "Yet another hiragana studying app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4b5563",
+  "theme_color": "#4b5563",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/static/icons/hiragana-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/icons/hiragana-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
